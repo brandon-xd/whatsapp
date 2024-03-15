@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import React from "react";
 import { useAuth } from "@clerk/clerk-expo";
 import Colors from "@/constants/Colors";
@@ -73,7 +73,7 @@ const Page = () => {
   };
   return (
     <View style={{ flex: 1, backgroundColor: Colors.background }}>
-      <ScrollView>
+      <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View style={defaultStyles.block}>
           <FlatList
             data={devices}
@@ -145,6 +145,19 @@ const Page = () => {
             )}
           />
         </View>
+
+        <TouchableOpacity onPress={() => signOut()} style={defaultStyles.block}>
+          <Text
+            style={{
+              fontSize: 18,
+              color: Colors.primary,
+              textAlign: "center",
+              paddingVertical: 14,
+            }}
+          >
+            Log Out
+          </Text>
+        </TouchableOpacity>
       </ScrollView>
     </View>
   );
