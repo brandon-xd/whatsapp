@@ -1,2 +1,2 @@
 # WhatsApp Clone
-This is a WhatsApp Clone created with React Native
+This is a React Native WhatsApp Clone created using Clerk for OTP user authentication and Expo Router Navigation
