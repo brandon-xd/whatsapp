@@ -1,8 +1,16 @@
 # WhatsApp Clone
-This is a React Native WhatsApp Clone created using Clerk for OTP user authentication and Expo Router Navigation
+React Native WhatsApp Clone
 
+Features:
+- Expo Router navigation
+- OTP Authentication with Clerk
+- Gesture handling
+- React native reanimated
 
-### TO DO
+## Acknowledgements
+This project was developed with the help of https://www.youtube.com/watch?v=VUhaDTKYBJU
+
+## TO DO
 - customize UI for work with android
 - Fix animated views to not break android app
 
