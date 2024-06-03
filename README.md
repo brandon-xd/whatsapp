@@ -11,7 +11,7 @@ Features:
 This project was developed with the help of https://www.youtube.com/watch?v=VUhaDTKYBJU
 
 ## TO DO
-- customize UI for work with android
+- Customize UI for better Android OS experience
 - Fix animated views to not break android app
 
 
